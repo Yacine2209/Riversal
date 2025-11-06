@@ -1,0 +1,22 @@
+package Execrice2;
+
+import java.util.Scanner;
+
+public class Probleme3
+{
+
+public static void main(String[] args)
+{
+    Scanner lectureClavier=new Scanner(System.in);
+    char a = 'a'; 
+    char $ = '$'; 
+
+       
+input.replace
+      
+       
+    }
+}
+}
+}
+    

@@ -1,5 +1,3 @@
-package Execrice2;
-
 import java.util.Scanner;
 
 public class Probleme7

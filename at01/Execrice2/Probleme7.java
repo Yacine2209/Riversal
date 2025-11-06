@@ -32,3 +32,10 @@ public static void main(String[] args)
 
      }
 }
+
+       Scanner lectureClavier = new Scanner(System.in);
+        int iRayon;
+        double dDiametre;
+        double circonférence=(iRayon);
+        
+

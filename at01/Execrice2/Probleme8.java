@@ -10,12 +10,12 @@ public class Probleme8 {
             System.out.print("Saisissez un mot: ");
             String sMot = lectureClavier.nextLine();
 
-            // Condition pour arrêter la boucle
+            
             if (sMot.toLowerCase().equals("stop")) {
                 break;
             }
 
-            // Mise à jour des mots dans l'ordre alphabétique
+         
             if (sPremier == null || sMot.compareToIgnoreCase(sPremier) < 0) {
                 sPremier = sMot;
             }
@@ -38,8 +38,4 @@ public class Probleme8 {
         
     
 
-/*if (sPremier != null && sDerniere != null) 
-        {
-            System.out.println("Le premier mot dans l'ordre alphabétique est : " + sPremier);
-            System.out.println("Le dernier mot dans l'ordre alphabétique est : " + sDerniere);
-        }*/
+

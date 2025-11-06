@@ -29,9 +29,6 @@ public static void main(String[] args)
       }
 
      }
-
-
-
      System.out.print("Il y'a "+ iConsonne +" consonnes\n");
      System.out.print("Il y'a "+ iVoyelle +" voyelles");
 

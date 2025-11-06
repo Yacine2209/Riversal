@@ -18,7 +18,7 @@ public static void main(String[] args)
       
       if (Character.isLetter(sPhrase.charAt(i))) {
 
-         if (sPhrase.charAt(i) == 'a' || sPhrase.charAt(i) == 'e') {
+         if (sPhrase.charAt(i) == 'a' || sPhrase.charAt(i) == 'e'||sPhrase.charAt(i) == 'i'||sPhrase.charAt(i) == 'o'||sPhrase.charAt(i) == 'u'||sPhrase.charAt(i) == 'y') {
             iVoyelle++;
          }
          else
@@ -28,21 +28,12 @@ public static void main(String[] args)
 
       }
 
-
-     /*if("aeiouy".indexOf(sPhrase) !=-1 )
-     {
-        iVoyelle++;
-     }else
-     {
-        iConsonne++;
-     }*/
-
      }
 
 
 
-     System.out.print("Il y'a "+ iConsonne +"consonnes");
-     System.out.print("Il y'a "+ iVoyelle +"voyelles");
+     System.out.print("Il y'a "+ iConsonne +" consonnes\n");
+     System.out.print("Il y'a "+ iVoyelle +" voyelles");
 
      }
 }

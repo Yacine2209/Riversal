@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Probleme11 {
    
-   public class Factorielle {
+
 
     public static long calculerFactorielle(int nombre) {
         long resultat = 1;
@@ -21,5 +21,4 @@ public class Probleme11 {
 
     System.out.print(calculerFactorielle(nombre));
     }
-}
 }

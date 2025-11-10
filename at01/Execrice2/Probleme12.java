@@ -39,7 +39,7 @@ public class Probleme12 {
             }
             
         }
-        System.out.println("La somme des nombres entre " + iMin + " et " + iMax + " est : " + iSomme);
-        
+        System.out.println("La somme des nombres entre " + iMin + iMax + " est : " + iSomme);
+
 }
 }
